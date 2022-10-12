@@ -1,0 +1,134 @@
+*{
+    padding:0;
+    margin:0;
+}
+.flex-container1{
+    display:flex;
+    background-color:dimgray;
+    padding:15px;
+    align-items: baseline;
+}
+.flex-container1>div{
+    background-color:dimgray;
+    color:white;
+    width:100%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+hover1:hover{
+    background-color: orange;
+}
+
+    
+
+.flex-container2{
+    display:flex;
+    background-color: white;
+    padding:2px;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container2>div{
+    width:100%;
+    padding:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    font-size: 15px;
+    
+}
+
+.flex-container2>div:hover{
+    background-color: brown;
+}
+
+.div1{
+    background-image:url('images/bg.jpg');
+    padding:60px;
+}
+.pre1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    font-size: 15px;
+    color:ghostwhite;
+}
+
+h1{
+    color:ghostwhite;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+}
+h3{
+    background-color: rgba(177, 14, 44, 0.993);
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-weight: bold;
+    padding:25px;
+    text-align: center;
+}
+.para1{
+    color:red;
+    font-size: 25px;
+    padding:45px;
+    text-align: center;
+    font-style:inherit;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:25px 40px;
+    font-style: italic;
+
+}
+
+.flex-container3{
+    display:flex;
+    flex-wrap:wrap;
+    background-color:white;
+    align-content: space-between;
+}
+.flex-container3 .menu-list{
+    background-color:ghostwhite;
+    padding:17px;
+    margin:20px;
+    text-align: center;
+}
+.flex-container3 .menu-images{
+    background-color: ghostwhite;
+    padding:15px 5px 15px 25px;
+    margin:20px;
+
+}
+.menu-images hr{
+    margin: 10px 10px;
+}
+
+.flex-container4{
+    display:flex;
+    background-color:gray;
+    color:white;
+    padding: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+.div3{
+    margin-left: 30px;
+}
+.div4{
+    text-align: right;
+    margin-left:660px;
+}
+
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:grey;
+
+}
+
+img{
+    width:50px;
+    height:45px;
+    margin-right: 20px;;
+}
+#main-logo{
+    width:300px;
+    height:auto;
+}
